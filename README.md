@@ -30,7 +30,7 @@ This project demonstrates both **Foundational** and **Advanced SQL concepts** us
 | 📄 File Name | 📝 Description |
 |------------|-------------|
 | `01_Database_Schema_and_Data.sql` | Database creation, table definitions, data insertion, and key constraints setup. |
-| `02_SQL_Queries_and_Joins.sql` | Core SQL operations — SELECT, WHERE, GROUP BY, HAVING, and multi-table joins. |
+| `02_SQL_Queries_and_Joins.sql` | Core SQL operations - SELECT, WHERE, GROUP BY, HAVING, and multi-table joins. |
 | `03_Subqueries_and_Views.sql` | Advanced SQL with subqueries (single, multi-row, correlated) and views. |
 | `04_CTE_and_Window_Functions.sql` | Demonstrates CTEs, derived tables, and analytical/window functions. |
 | `05_StoredProcedures_UDFs_Triggers_Indexing.sql` | Covers stored procedures, UDFs, triggers, and indexing for performance tuning. |
@@ -80,3 +80,4 @@ WITH CustomerSpend AS (
 SELECT * 
 FROM CustomerSpend
 WHERE rank_within_city <= 5;
+
